@@ -28,9 +28,9 @@
         },
         {
             "name": "Python: Current File",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
-            "program": "${file}",
+            "program": "${workspaceFolder}/test_add.py",
             "console": "integratedTerminal"
         }
     ]
